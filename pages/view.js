@@ -63,7 +63,7 @@ function view() {
     </div>
   ))}
    <div className='h-24 w-24 rounded-full border border-black relative m-5'>
-    {selectedAirlines.length ? (<div className='border-2 h-3 w-3 rounded border-black flex justify-center p-2  absolute bottom-0 right-0 items-center  bg-green-300'>{selectedAirlines.length}</div>):null}
+    {selectedAirlines?.length ? (<div className='border-2 h-3 w-3 rounded border-black flex justify-center p-2  absolute bottom-0 right-0 items-center  bg-green-300'>{selectedAirlines.length}</div>):null}
    
    
    </div>
